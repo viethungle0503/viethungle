@@ -80,6 +80,13 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'gamingSidebar',
+          position: 'left',
+          label: 'Gaming',
+          to: '/docs/gaming/ark-cheats',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',

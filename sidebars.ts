@@ -28,6 +28,14 @@ const sidebars: SidebarsConfig = {
     },
   ],
    */
+
+  gamingSidebar: [
+    {
+      type: 'category',
+      label: 'Gaming',
+      items: ['gaming/ark-cheats'],
+    },
+  ],
 };
 
 export default sidebars;
