@@ -1,8 +1,0 @@
-{
-  "label": "AWS - Console",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Some notes about how to using AWS Console to manage services"
-  }
-}
