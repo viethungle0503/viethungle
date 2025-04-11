@@ -17,3 +17,23 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+github:
+  label: GitHub
+  permalink: /github
+  description: GitHub projects and tools
+
+open-source:
+  label: Open Source
+  permalink: /open-source
+  description: Open source software and projects
+
+development:
+  label: Development
+  permalink: /development
+  description: Software development tools and practices
+
+tools:
+  label: Tools
+  permalink: /tools
+  description: Development tools and utilities
