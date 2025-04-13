@@ -37,3 +37,43 @@ tools:
   label: Tools
   permalink: /tools
   description: Development tools and utilities
+
+finance:
+  label: Finance
+  permalink: /finance
+  description: Financial topics and discussions
+
+economics:
+  label: Economics
+  permalink: /economics
+  description: Economic concepts and analysis
+
+humor:
+  label: Humor
+  permalink: /humor
+  description: Humorous content and stories
+
+vietnam:
+  label: Vietnam
+  permalink: /vietnam
+  description: Content related to Vietnam
+
+tài-chính:
+  label: Tài Chính
+  permalink: /tai-chinh
+  description: Chủ đề về tài chính
+
+kinh-tế:
+  label: Kinh Tế
+  permalink: /kinh-te
+  description: Khái niệm và phân tích kinh tế
+
+hài-hước:
+  label: Hài Hước
+  permalink: /hai-huoc
+  description: Nội dung hài hước và câu chuyện
+
+việt-nam:
+  label: Việt Nam
+  permalink: /viet-nam
+  description: Nội dung liên quan đến Việt Nam
