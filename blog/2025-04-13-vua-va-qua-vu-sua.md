@@ -2,7 +2,7 @@
 slug: vua-va-qua-vu-sua
 title: Vua và Quả Vú Sữa - Câu Chuyện Về Sự Tham Lam
 authors: [viethungle0503]
-tags: [tài chính, kinh tế, hài hước, việt nam]
+tags: [tài-chính, kinh-tế, hài-hước, việt-nam]
 ---
 
 ![Một vị vua đang nhìn ra ngoài cửa sổ hoàng cung](/img/blog/king-window.jpeg)

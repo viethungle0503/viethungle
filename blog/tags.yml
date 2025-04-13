@@ -77,3 +77,58 @@ việt-nam:
   label: Việt Nam
   permalink: /viet-nam
   description: Nội dung liên quan đến Việt Nam
+
+cryptocurrency:
+  label: Cryptocurrency
+  permalink: /cryptocurrency
+  description: Topics related to digital currencies and blockchain technology
+
+security:
+  label: Security
+  permalink: /security
+  description: Information about security practices and tools
+
+wallets:
+  label: Wallets
+  permalink: /wallets
+  description: Cryptocurrency storage solutions and wallet technology
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Topics related to blockchain technology and applications
+
+stablecoins:
+  label: Stablecoins
+  permalink: /stablecoins
+  description: Information about stable value cryptocurrencies
+
+defi:
+  label: DeFi
+  permalink: /defi
+  description: Decentralized finance topics, platforms, and concepts
+
+politics:
+  label: Politics
+  permalink: /politics
+  description: Political systems, structures, and developments
+
+history:
+  label: History
+  permalink: /history
+  description: Historical events, figures, and timelines
+
+government:
+  label: Government
+  permalink: /government
+  description: Government structures, policies, and operations
+
+affiliate:
+  label: Affiliate
+  permalink: /affiliate
+  description: Affiliate marketing programs and strategies
+
+marketing:
+  label: Marketing
+  permalink: /marketing
+  description: Marketing concepts, strategies, and platforms
