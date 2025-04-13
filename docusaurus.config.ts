@@ -44,6 +44,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 100,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -56,6 +57,11 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          // This removes the "Recent posts" heading
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          blogTitle: 'All Blog Posts',
+          blogDescription: 'Complete archive of all blog posts',
         },
         theme: {
           customCss: './src/css/custom.css',
