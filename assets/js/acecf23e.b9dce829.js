@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkviethungle_0503=self.webpackChunkviethungle_0503||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/viethungle/blog","blogTitle":"All Blog Posts","authorsListPath":"/viethungle/blog/authors"}')}}]);
