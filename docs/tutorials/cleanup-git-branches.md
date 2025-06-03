@@ -38,14 +38,35 @@ git branch --merged
 
 To delete all local branches that have been merged into the current branch (except the current branch itself):
 
+**For Bash/Linux/macOS:**
 ```bash
 git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
 ```
 
-This command:
-- Lists all merged branches (`git branch --merged`)
-- Excludes the current branch (`grep -v "\*"`)
-- Deletes each branch one by one (`xargs -n 1 git branch -d`)
+**For Windows PowerShell:**
+
+Option 1:
+```powershell
+git branch --merged | Where-Object { $_ -notmatch '^\*' } | ForEach-Object { $_.Trim() } | ForEach-Object { git branch -d $_ }
+```
+
+Option 2:
+```powershell
+git branch --merged | Where-Object { $_ -notmatch '^\*' } | ForEach-Object { $_.Trim() } | ForEach-Object { git branch -d $_ }
+```
+
+Option 3:
+```powershell
+git branch --merged `
+  | Select-String -Pattern '^\*' -NotMatch `
+  | ForEach-Object { $_.Line.Trim() } `
+  | ForEach-Object { git branch -d $_ }
+```
+
+These commands:
+- List all merged branches (`git branch --merged`)
+- Exclude the current branch (using `grep -v "\*"` in Bash or `Where-Object`/`Select-String` in PowerShell)
+- Delete each branch one by one (`xargs` in Bash or `ForEach-Object` in PowerShell)
 
 ### 3. Check Current Branch
 
@@ -75,8 +96,14 @@ Here's a complete workflow for cleaning up your Git repository:
    ```
 
 4. Delete merged local branches:
+   **For Bash/Linux/macOS:**
    ```bash
    git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+   ```
+   
+   **For Windows PowerShell:**
+   ```powershell
+   git branch --merged | Where-Object { $_ -notmatch '^\*' } | ForEach-Object { $_.Trim() } | ForEach-Object { git branch -d $_ }
    ```
 
 ## Safety Tips
