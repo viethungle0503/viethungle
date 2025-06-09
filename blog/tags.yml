@@ -167,3 +167,33 @@ alova:
   label: AlovaJS
   permalink: /alova
   description: AlovaJS request strategy library
+
+redis:
+  label: Redis
+  permalink: /redis
+  description: Redis in-memory data structure store
+
+bloom-filter:
+  label: Bloom Filter
+  permalink: /bloom-filter
+  description: Probabilistic data structure for membership testing
+
+database:
+  label: Database
+  permalink: /database
+  description: Database systems and optimization techniques
+
+system-design:
+  label: System Design
+  permalink: /system-design
+  description: Large-scale system architecture and design patterns
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: Performance optimization and scalability topics
+
+interview:
+  label: Interview
+  permalink: /interview
+  description: Interview questions about techniques
