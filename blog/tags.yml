@@ -132,3 +132,8 @@ marketing:
   label: Marketing
   permalink: /marketing
   description: Marketing concepts, strategies, and platforms
+
+business:
+  label: Business
+  permalink: /business
+  description: Business topics and discussions
