@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkviethungle_0503=self.webpackChunkviethungle_0503||[]).push([[1919],{5396:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/viethungle/blog","page":1,"postsPerPage":100,"totalPages":1,"totalCount":12,"blogDescription":"Complete archive of all blog posts","blogTitle":"All Blog Posts"}}')}}]);
