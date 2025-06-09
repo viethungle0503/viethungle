@@ -137,3 +137,33 @@ business:
   label: Business
   permalink: /business
   description: Business topics and discussions
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript programming language and ecosystem
+
+http-client:
+  label: HTTP Client
+  permalink: /http-client
+  description: HTTP client libraries and tools
+
+request-library:
+  label: Request Library
+  permalink: /request-library
+  description: Libraries for making HTTP requests
+
+frontend:
+  label: Frontend
+  permalink: /frontend
+  description: Frontend development tools and frameworks
+
+axios:
+  label: Axios
+  permalink: /axios
+  description: Axios HTTP client library
+
+alova:
+  label: AlovaJS
+  permalink: /alova
+  description: AlovaJS request strategy library
