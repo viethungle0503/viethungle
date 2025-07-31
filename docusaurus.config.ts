@@ -119,16 +119,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/viethung.le.35110418',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/viethungle0503/',
             },
           ],
         },
@@ -141,12 +137,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/viethungle0503/viethungle',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Lê Việt Hưng, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
