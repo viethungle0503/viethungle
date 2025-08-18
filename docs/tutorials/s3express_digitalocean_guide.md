@@ -61,11 +61,6 @@ s3express
 />saveauth YOUR_ACCESS_KEY YOUR_SECRET_KEY
 ```
 
-Ví dụ:
-```cmd
-/>saveauth DO00K4CA3YVPEJF9DL9E W1uxcyWQnwMBoanjuzbyav0ixQgV/nrE+WcnV9u9/hI
-```
-
 ### 4.3. Cấu hình endpoint và options
 
 ```cmd
