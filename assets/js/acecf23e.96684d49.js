@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkviethungle_0503=globalThis.webpackChunkviethungle_0503||[]).push([[1903],{1912(l){l.exports=JSON.parse('{"blogBasePath":"/viethungle/blog","blogTitle":"All Blog Posts","authorsListPath":"/viethungle/blog/authors"}')}}]);
