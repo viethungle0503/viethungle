@@ -1,8 +1,10 @@
 ---
 sidebar_position: 20
+title: "20. Sử dụng S3Express để upload image lên DigitalOcean Spaces"
+sidebar_label: S3Express + DigitalOcean Spaces
 ---
 
-#  Sử dụng S3Express để upload image lên DigitalOcean Spaces
+# 20. Sử dụng S3Express để upload image lên DigitalOcean Spaces
 
 ## 1. Giới thiệu
 

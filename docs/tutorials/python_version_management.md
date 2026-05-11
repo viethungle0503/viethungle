@@ -1,8 +1,10 @@
 ---
 sidebar_position: 15
+title: "15. Quản lý phiên bản Python"
+sidebar_label: Quản lý phiên bản Python
 ---
 
-# Quản lý phiên bản Python
+# 15. Quản lý phiên bản Python
 
 ## 1.1. Giới thiệu
 

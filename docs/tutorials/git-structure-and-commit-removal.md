@@ -1,8 +1,10 @@
 ---
 sidebar_position: 14
+title: "14. Cấu trúc thư mục Git và cách loại bỏ commit không mong muốn"
+sidebar_label: Git structure & commit removal
 ---
 
-# Cấu trúc thư mục Git và cách loại bỏ commit không mong muốn
+# 14. Cấu trúc thư mục Git và cách loại bỏ commit không mong muốn
 
 Bài viết này giải thích cấu trúc thư mục `.git` và hướng dẫn cách loại bỏ các commit không mong muốn (như thêm `node_modules`) khỏi lịch sử Git mà không làm thay đổi thông tin author và thời gian commit.
 

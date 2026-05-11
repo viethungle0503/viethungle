@@ -1,8 +1,10 @@
 ---
 sidebar_position: 17
+title: "17. Cấu hình Cloudflare Tunnel cho Supabase Self-hosted"
+sidebar_label: Cloudflare Tunnel + Supabase
 ---
 
-# Cấu hình Cloudflare Tunnel cho Supabase Self-hosted
+# 17. Cấu hình Cloudflare Tunnel cho Supabase Self-hosted
 
 ## 1. Tổng quan
 
@@ -94,7 +96,7 @@ Quay lại Cloudflare Zero Trust Dashboard, vào tunnel vừa tạo và chuyển
 
 1. Click **"Add a public hostname"**
 2. **Subdomain:** `api`
-3. **Domain:** `rtrobotics.tech` (thay bằng domain của bạn)  
+3. **Domain:** `rtrobotics.tech` (thay bằng domain của bạn)
 4. **Service Type:** `HTTP`
 5. **URL:** `kong:8000`
 6. Click **"Save hostname"**
@@ -116,9 +118,9 @@ Cloudflare sẽ tự động thêm các CNAME records tương ứng trong DNS Re
 - `YOUR_TUNNEL_ID` có thể tìm thấy trong URL tunnel hoặc trong dashboard.
 - Sử dụng tên service Docker (`studio`, `kong`) thay vì `localhost` để đảm bảo connectivity trong Docker network.
 
-## 7. Cập nhật cấu hình Supabase
+## 6. Cập nhật cấu hình Supabase
 
-### 7.1. Chỉnh sửa file .env
+### 6.1. Chỉnh sửa file .env
 
 Cập nhật các biến môi trường trong file `.env` của Supabase:
 
@@ -126,18 +128,19 @@ Cập nhật các biến môi trường trong file `.env` của Supabase:
 # URL cho API endpoints (Kong gateway)
 API_EXTERNAL_URL=https://api.rtrobotics.tech
 
-# URL cho Supabase Studio dashboard  
+# URL cho Supabase Studio dashboard
 SUPABASE_PUBLIC_URL=https://supabase.rtrobotics.tech
 
 # Base URL của site (dùng cho auth redirects)
 SITE_URL=https://supabase.rtrobotics.tech
 URI_ALLOW_LIST=https://supabase.rtrobotics.tech
 ```
-Xem thêm docs của Supabase dành cho từng front-end framwork: 
+
+Xem thêm docs của Supabase dành cho từng front-end framework:
 - https://supabase.com/docs/guides/auth/server-side
 - https://github.com/supabase/auth
 
-### 7.2. Ý nghĩa các biến môi trường
+### 6.2. Ý nghĩa các biến môi trường
 
 - **`API_EXTERNAL_URL`**: URL mà GoTrue (Auth service) sử dụng để tạo links trong email xác thực và các API calls. Đây là URL mà client applications sẽ sử dụng để kết nối với Supabase API.
 
@@ -145,22 +148,22 @@ Xem thêm docs của Supabase dành cho từng front-end framwork:
 
 - **`SITE_URL`**: URL cơ sở của website/application, được sử dụng làm allow-list cho redirects và để tạo URLs trong emails.
 
-### 7.3. Khởi động lại services
+### 6.3. Khởi động lại services
 
 ```bash
 docker compose down
 docker compose up -d
 ```
 
-## 8. Kiểm tra kết nối
+## 7. Kiểm tra kết nối
 
-### 8.1. Test các endpoints
+### 7.1. Test các endpoints
 
 - **Supabase Studio:** `https://supabase.rtrobotics.tech`
 - **API Health Check:** `https://api.rtrobotics.tech/rest/v1/`
 - **Auth endpoint:** `https://api.rtrobotics.tech/auth/v1/`
 
-### 8.2. Troubleshooting thường gặp
+### 7.2. Troubleshooting thường gặp
 
 **Lỗi 502 Bad Gateway:**
 - Kiểm tra container cloudflared có đang chạy không
@@ -174,12 +177,12 @@ docker compose up -d
 - Kiểm tra `API_EXTERNAL_URL` đã được cấu hình đúng trong `.env`
 - Đảm bảo `SITE_URL` match với domain đang sử dụng
 
-## 9. Kết luận
+## 8. Kết luận
 
 Cloudflare Tunnel cung cấp một giải pháp elegant để expose Supabase self-hosted ra internet với HTTPS. Phương pháp này đặc biệt phù hợp cho:
 
 - **Development environments** cần truy cập từ xa
-- **Small to medium production deployments** 
+- **Small to medium production deployments**
 - **Prototyping** và testing
 - Các trường hợp cần **setup nhanh** mà không muốn quản lý infrastructure phức tạp
 

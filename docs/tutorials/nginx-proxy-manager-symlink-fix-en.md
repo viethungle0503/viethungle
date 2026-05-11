@@ -1,8 +1,10 @@
 ---
 sidebar_position: 4
+title: "4. Fixing Nginx Proxy Manager Symlinks After Manual Backup"
+sidebar_label: Fix NPM Symlinks (EN)
 ---
 
-# Fixing Nginx Proxy Manager Symlinks After Manual Backup
+# 4. Fixing Nginx Proxy Manager Symlinks After Manual Backup
 
 When you backup Nginx Proxy Manager by manually copying directories, Let's Encrypt symlinks can be broken, leading to SSL certificate renewal errors. This guide will help you fix this issue.
 
@@ -285,4 +287,4 @@ Fixing symlinks after manual backup is essential to ensure Nginx Proxy Manager f
 3. Restart the container after fixing
 4. Use proper backup methods to avoid this issue
 
-In the future, consider using specialized backup tools or Docker volume backup to ensure data integrity. 
+In the future, consider using specialized backup tools or Docker volume backup to ensure data integrity.

@@ -1,8 +1,10 @@
 ---
 sidebar_position: 1
+title: "1. Sparse Checkout in Git"
+sidebar_label: Sparse Checkout in Git
 ---
 
-# Sparse Checkout in Git
+# 1. Sparse Checkout in Git
 
 Sparse checkout is a Git feature that allows you to check out only specific directories or files from a repository. This is particularly useful when working with large repositories where you only need a small portion of the codebase.
 
@@ -106,4 +108,4 @@ git pull origin main
 
 ## Conclusion
 
-Sparse checkout is a powerful feature that can help you work more efficiently with large repositories. By checking out only the parts you need, you can save disk space and improve performance. 
+Sparse checkout is a powerful feature that can help you work more efficiently with large repositories. By checking out only the parts you need, you can save disk space and improve performance.

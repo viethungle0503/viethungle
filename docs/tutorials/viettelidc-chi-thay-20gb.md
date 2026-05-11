@@ -1,10 +1,12 @@
 ---
 sidebar_position: 18
-title: Khắc phục máy ViettelIDC chỉ hiển thị 20 GB thay vì 100 GB (Ubuntu)
+title: "18. Khắc phục máy ViettelIDC chỉ hiển thị 20 GB thay vì 100 GB (Ubuntu)"
 slug: viettelidc-chi-thay-20gb
 sidebar_label: Ubuntu chỉ thấy 20 GB (fix)
 description: Chẩn đoán và mở rộng phân vùng/Filesystem khi gói 100 GB nhưng hệ thống chỉ hiển thị ~20 GB. Kèm gợi ý công cụ quản lý/giám sát server.
 ---
+
+# 18. Khắc phục máy ViettelIDC chỉ hiển thị 20 GB thay vì 100 GB (Ubuntu)
 
 ## Tóm tắt tình huống
 
@@ -15,7 +17,7 @@ description: Chẩn đoán và mở rộng phân vùng/Filesystem khi gói 100 G
   - `fdisk -l` báo:
     - `GPT PMBR size mismatch …`
     - `The backup GPT table is not on the end of the device.`
-  - `duf` cài bằng `sudo apt install duf` (duf utility is an enhanced version of the du and df commands combined) command cho kết quả như sau:
+  - `duf` (cài bằng `sudo apt install duf`) cho kết quả:
 
 ```
 ╭────────────────────────────────────────────────────────────────────────────────────────╮

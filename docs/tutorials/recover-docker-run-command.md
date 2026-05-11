@@ -1,8 +1,10 @@
 ---
 sidebar_position: 11
+title: "11. Cách xem lại lệnh docker run từ container đang chạy"
+sidebar_label: Recover docker run command
 ---
 
-# Cách xem lại lệnh docker run từ container đang chạy
+# 11. Cách xem lại lệnh docker run từ container đang chạy
 
 **Câu hỏi:** Có cách nào để biết ngày trước tôi đã dùng lệnh `docker run` như thế nào dựa trên một container đang chạy không?
 
@@ -63,7 +65,7 @@ docker run -d --name={{.Name}}
 - Nếu container được tạo bởi `docker-compose`, các nhãn (`.Config.Labels`) sẽ gợi ý file `docker-compose.yml` ban đầu.
 - `docker ps --no-trunc` chỉ hiện lệnh CMD chạy bên trong container, chứ không có port/volume nên thường chưa đủ.
 
-## 4. Công cụ "dùng liền"T ool runlike
+## 4. Công cụ "dùng liền": runlike
 ```bash
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock assaflavie/runlike <id>
 ```

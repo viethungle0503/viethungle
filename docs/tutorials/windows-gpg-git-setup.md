@@ -1,8 +1,10 @@
 ---
 sidebar_position: 6
+title: "6. Thiết Lập GPG Signing Cho Git Trên Windows"
+sidebar_label: GPG Signing cho Git (Windows)
 ---
 
-# Thiết Lập GPG Signing Cho Git Trên Windows
+# 6. Thiết Lập GPG Signing Cho Git Trên Windows
 
 Hướng dẫn chi tiết cách thiết lập và sử dụng GPG để ký commit trên Windows bằng Gpg4win (Kleopatra) và tích hợp với Git.
 

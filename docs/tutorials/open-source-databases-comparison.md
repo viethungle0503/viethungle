@@ -1,8 +1,10 @@
 ---
 sidebar_position: 12
+title: "12. Các Database Open-Source Phổ Biến: So sánh tính năng và use case"
+sidebar_label: Database Open-Source so sánh
 ---
 
-# Các Database Open-Source Phổ Biến: So sánh tính năng và use case
+# 12. Các Database Open-Source Phổ Biến: So sánh tính năng và use case
 
 Trong bối cảnh phát triển phần mềm hiện đại, việc lựa chọn database phù hợp là một quyết định quan trọng ảnh hưởng đến hiệu suất, khả năng mở rộng và chi phí của ứng dụng. Bài viết này sẽ giới thiệu và so sánh các database open-source phổ biến được OSI (Open Source Initiative) công nhận.
 

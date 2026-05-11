@@ -1,8 +1,10 @@
 ---
 sidebar_position: 10
+title: "10. So sánh các Streaming Server: SRS vs MediaMTX vs ZLMediaKit"
+sidebar_label: Streaming Server so sánh
 ---
 
-# So sánh các Streaming Server: SRS vs MediaMTX vs ZLMediaKit
+# 10. So sánh các Streaming Server: SRS vs MediaMTX vs ZLMediaKit
 
 Ba nền tảng streaming mã nguồn mở hàng đầu hiện nay là **SRS (Simple Realtime Server)**, **MediaMTX**, và **ZLMediaKit**. Bài viết này sẽ so sánh chi tiết về độ trễ, tính năng, độ ổn định và các định dạng hỗ trợ của từng platform.
 

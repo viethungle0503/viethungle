@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/viethungle0503/viethungle/tree/main/docs',
+            'https://github.com/viethungle0503/viethungle/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -76,9 +76,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Lê Việt Hưng',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Lê Việt Hưng',
         src: 'img/logo.svg',
       },
       items: [
@@ -95,9 +95,9 @@ const config: Config = {
           label: 'Gaming',
           to: '/docs/gaming/ark-cheats',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/viethungle0503/viethungle',
           label: 'GitHub',
           position: 'right',
         },

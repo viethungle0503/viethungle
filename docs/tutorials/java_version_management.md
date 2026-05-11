@@ -1,8 +1,10 @@
 ---
 sidebar_position: 16
+title: "16. Quản lý phiên bản Java và JVM"
+sidebar_label: Quản lý phiên bản Java & JVM
 ---
 
-# Quản lý phiên bản Java và JVM
+# 16. Quản lý phiên bản Java và JVM
 
 ## 2.1. Giới thiệu
 

@@ -1,8 +1,10 @@
 ---
 sidebar_position: 9
+title: "9. MTR, iperf3 và Tailscale - Công cụ đo mạng chuyên nghiệp"
+sidebar_label: MTR, iperf3 & Tailscale
 ---
 
-# MTR, iperf3 và Tailscale - Công cụ đo mạng chuyên nghiệp
+# 9. MTR, iperf3 và Tailscale - Công cụ đo mạng chuyên nghiệp
 
 Khi quản lý hạ tầng mạng hoặc debug vấn đề kết nối, việc có công cụ đo mạng chính xác là rất quan trọng. Bài viết này giới thiệu ba công cụ thiết yếu: MTR cho phân tích routing, iperf3 cho đo băng thông, và các tính năng monitoring của Tailscale.
 
@@ -189,7 +191,7 @@ tailscale status --peers
 tailscale status --active
 ```
 
-#### 3.2 Real-time metrics
+### 3.2 Real-time metrics
 ```bash
 # In metrics trực tiếp ra console
 tailscale metrics print
@@ -309,20 +311,20 @@ nc -zv <tailscale-ip> <port>
 tailscale status --json | jq '.Peer'
 ```
 
-## 5. Best Practices ⚠️
+## 4. Best Practices
 
-### 5.1 MTR
+### 4.1 MTR
 - Chạy ít nhất 100 packets để có kết quả chính xác
 - Monitor trong thời gian dài để phát hiện pattern
 - Loss% > 5% ở bất kỳ hop nào cần điều tra
 
-### 5.2 iperf3
+### 4.2 iperf3
 - Test cả TCP và UDP cho complete picture
 - Sử dụng multiple connections (-P) cho saturate bandwidth
 - Test bidirectional để phát hiện asymmetric issues
 - Firewall cần mở port 5201 (hoặc port custom)
 
-### 5.3 Tailscale ACL
+### 4.3 Tailscale ACL
 - Test ACL trên staging environment trước
 - Sử dụng tags thay vì hardcode user emails
 - Tận dụng `autogroup:members` cho internal access

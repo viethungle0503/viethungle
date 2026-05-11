@@ -1,8 +1,10 @@
 ---
 sidebar_position: 7
+title: "7. Các trang web chuyên so sánh hiệu năng GPU"
+sidebar_label: So sánh hiệu năng GPU
 ---
 
-# Các trang web chuyên so sánh hiệu năng GPU
+# 7. Các trang web chuyên so sánh hiệu năng GPU
 
 Khi muốn so sánh hiệu năng GPU, việc lựa chọn nguồn thông tin đáng tin cậy là rất quan trọng. Dưới đây là các trang web được cộng đồng tech đánh giá cao nhất:
 

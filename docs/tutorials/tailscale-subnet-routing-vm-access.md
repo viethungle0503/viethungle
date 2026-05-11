@@ -1,8 +1,10 @@
 ---
 sidebar_position: 21
+title: "21. Truy Cập Máy Tính Không Cài Đặt Tailscale Bằng Subnet Routing"
+sidebar_label: Tailscale Subnet Routing
 ---
 
-# Truy Cập Máy Tính Không Cài Đặt Tailscale Bằng Subnet Routing
+# 21. Truy Cập Máy Tính Không Cài Đặt Tailscale Bằng Subnet Routing
 
 Trong một số trường hợp, bạn cần truy cập từ xa vào các thiết bị trong mạng nội bộ mà không thể cài đặt Tailscale trực tiếp trên chúng. Điều này thường xảy ra với:
 

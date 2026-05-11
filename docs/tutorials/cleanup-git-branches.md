@@ -1,8 +1,10 @@
 ---
 sidebar_position: 2
+title: "2. Cleaning Up Git Branches"
+sidebar_label: Cleaning Up Git Branches
 ---
 
-# Cleaning Up Git Branches
+# 2. Cleaning Up Git Branches
 
 As your Git repository grows, you might accumulate many branches that are no longer needed. This tutorial will show you how to clean up both local and remote branches efficiently.
 
@@ -51,11 +53,6 @@ git branch --merged | Where-Object { $_ -notmatch '^\*' } | ForEach-Object { $_.
 ```
 
 Option 2:
-```powershell
-git branch --merged | Where-Object { $_ -notmatch '^\*' } | ForEach-Object { $_.Trim() } | ForEach-Object { git branch -d $_ }
-```
-
-Option 3:
 ```powershell
 git branch --merged `
   | Select-String -Pattern '^\*' -NotMatch `
@@ -131,4 +128,4 @@ git fetch --prune
 
 ## Conclusion
 
-Regular branch cleanup is an important part of Git repository maintenance. It helps keep your repository organized and reduces confusion for team members. Remember to communicate with your team before deleting shared branches. 
+Regular branch cleanup is an important part of Git repository maintenance. It helps keep your repository organized and reduces confusion for team members. Remember to communicate with your team before deleting shared branches.

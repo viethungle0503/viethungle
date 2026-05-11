@@ -1,8 +1,10 @@
 ---
 sidebar_position: 13
+title: "13. Backup và Restore Private Key GPG trên Windows với GPG4win"
+sidebar_label: Backup/Restore GPG Key
 ---
 
-# Backup và Restore Private Key GPG trên Windows với GPG4win
+# 13. Backup và Restore Private Key GPG trên Windows với GPG4win
 
 Khi làm việc với GPG key signing trên Windows, việc backup và restore private key là rất quan trọng để không mất khả năng ký commit hoặc giải mã dữ liệu. Bài viết này hướng dẫn chi tiết cách xử lý lỗi "No secret key" và backup/restore private key đúng cách.
 

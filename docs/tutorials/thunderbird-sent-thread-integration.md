@@ -1,8 +1,10 @@
 ---
 sidebar_position: 5
+title: "5. Thunderbird - Hiển Thị Email Sent Trong Cùng Thread"
+sidebar_label: Thunderbird Sent Thread
 ---
 
-# Thunderbird - Hiển Thị Email Sent Trong Cùng Thread
+# 5. Thunderbird - Hiển Thị Email Sent Trong Cùng Thread
 
 Thunderbird mặc định không hiển thị email đã gửi (Sent) trong cùng thread với email nhận được (Inbox). Điều này có thể gây khó khăn khi theo dõi cuộc hội thoại đầy đủ. Bài hướng dẫn này sẽ giới thiệu 4 phương pháp khác nhau để giải quyết vấn đề này.
 
